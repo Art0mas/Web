@@ -1,0 +1,50 @@
+@media(max-width: 1200px) {
+
+    .calories,
+    .description,
+    hr {
+        display: none;
+    }
+
+    .container {
+        grid-template-areas:
+            "sidebar"
+            "content";
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        width: 98%;
+        background-color: antiquewhite;
+        border: none;
+    }
+
+    .filter {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    label {
+        margin: 10px;
+        width: 95%;
+    }
+
+    .head {
+        display: block;
+    }
+
+    .head p {
+        margin-left: 5px;
+    }
+
+    img {
+        width: 96%
+    }
+
+    .item {
+        max-width: 350px;
+    }
+}
